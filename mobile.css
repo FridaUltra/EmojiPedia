@@ -1,0 +1,30 @@
+/* Type */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Object */
+header {
+    background-color: #F0F3F7;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    margin: 3px 3px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.256) 0px 2px 15px;/
+}
+
+.navbar-mobile {
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+/* Utility */
+.flex {
+    display: flex;
+}
