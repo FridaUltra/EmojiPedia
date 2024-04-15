@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,81.8,300..800;1,81.8,300..800&display=swap"
+      rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet" />
@@ -11,16 +16,53 @@
     <title>Emojipedia😍</title>
   </head>
   <body>
-    <header class="flex">
+    <header class="flex header-mobile-hidden">
       <nav class="navbar-mobile flex">
         <i class="material-icons">menu</i>
         <img
+          class="logo-icon"
           src="https://beta.emojipedia.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-icon.e5eb7dea.webp&w=128&q=75"
-          width="28"
-          height="28"
           alt="logo-icon" />
         <i class="material-icons">search</i>
       </nav>
     </header>
+    <div class="nav-desktop-container">
+      <header class="header-desktop">
+        <img
+          class="logo-icon"
+          src="https://beta.emojipedia.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo-icon.e5eb7dea.webp&w=128&q=75"
+          alt="logo-icon" />
+        <nav class="navbar-desktop">
+          <p>😀</p>
+          <p>👨‍🦰</p>
+          <p>🐻</p>
+          <p>🍔</p>
+          <p>⚽</p>
+          <p>🚀</p>
+          <p>💡</p>
+          <p>💞</p>
+          <p>🎌</p>
+        </nav>
+        <div class="navbar-desktop">
+          <p>🛍️</p>
+          <p class="eng">En</p>
+        </div>
+      </header>
+    </div>
+    <div class="container flex justify-center">
+      <main>
+        <fieldset class="search-desktop">
+          <i class="material-icons">search</i>
+          <input type="text" placeholder="Search Emojipedia" />
+          <span>🎲</span>
+        </fieldset>
+        <figure class="img-container">
+          <img
+            class="logo-text-img"
+            src="https://beta.emojipedia.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.e45bd67b.png&w=1088&q=75"
+            alt="logo-text-icon" />
+        </figure>
+      </main>
+    </div>
   </body>
 </html>

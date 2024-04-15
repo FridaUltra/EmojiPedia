@@ -24,7 +24,50 @@ header {
     flex: 1;
 }
 
+.header-desktop {
+    display: none;
+}
+
+.logo-icon {
+    width: 28px;
+    height: 28px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+.logo-text-img {
+    width: 40%;
+    height: auto;
+}
+
+.search-desktop {
+    display: none;
+}
+
 /* Utility */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
 .flex {
     display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
 }
