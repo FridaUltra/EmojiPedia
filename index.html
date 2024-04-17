@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,81.8,300..800;1,81.8,300..800&display=swap"
-      rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet" />
     <link rel="stylesheet" href="mobile.css" />
     <link rel="stylesheet" href="desktop.css" />
@@ -45,24 +44,77 @@
         </nav>
         <div class="navbar-desktop">
           <p>🛍️</p>
-          <p class="eng">En</p>
+          <p>En</p>
         </div>
       </header>
     </div>
-    <div class="container flex justify-center">
-      <main>
-        <fieldset class="search-desktop">
-          <i class="material-icons">search</i>
-          <input type="text" placeholder="Search Emojipedia" />
-          <span>🎲</span>
-        </fieldset>
-        <figure class="img-container">
-          <img
-            class="logo-text-img"
-            src="https://beta.emojipedia.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.e45bd67b.png&w=1088&q=75"
-            alt="logo-text-icon" />
-        </figure>
-      </main>
-    </div>
+
+    <main class="main flex column">
+      <fieldset class="search-desktop">
+        <i class="material-icons">search</i>
+        <input type="text" placeholder="Search Emojipedia" />
+        <span>🎲</span>
+      </fieldset>
+
+      <figure class="img-container">
+        <img
+          class="logo-text-img"
+          src="https://beta.emojipedia.org/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.e45bd67b.png&w=1088&q=75"
+          alt="logo-text-icon" />
+      </figure>
+
+      <div class="flex justify-between">
+        <h2>Most Popular</h2>
+        <h3 class="weight-200">Show More</h3>
+      </div>
+      <div class="main-icons flex justify-center wrap gap-1 mb-2">
+        <span>❤️</span>
+        <span>✅</span>
+        <span>✨</span>
+        <span>🔥</span>
+        <span>😊</span>
+        <span>😂</span>
+        <span>💀</span>
+        <span>⭐</span>
+        <span>🎉</span>
+      </div>
+
+      <div class="flex justify-between">
+        <h2>Customizable Emoji Products</h2>
+        <h3 class="weight-200">Show More</h3>
+      </div>
+
+      <img
+        class="banner-mobile border-radius-5 mb-2"
+        src="./assets/banner_mobile.webp"
+        alt="banner_mobile" />
+      <img
+        class="banner-desktop border-radius-5 mb-2"
+        src="./assets/banner_desktop.jpeg"
+        alt="banner_desktop" />
+
+      <div class="flex justify-between">
+        <h2>Customizable Emoji Products</h2>
+        <h3 class="weight-200">Show More</h3>
+      </div>
+
+      <div class="box-container mb-2">
+        <div class="earth">
+          <p class="bg-white w-fit p-05 ml-1 size-08 border-radius-5">
+            🌱Earth Day
+          </p>
+        </div>
+        <div class="ramadan">
+          <p class="bg-white w-fit p-05 ml-1 size-08 border-radius-5">
+            ☪️Ramadan Emoji List
+          </p>
+        </div>
+        <div class="cincodemayo">
+          <p class="bg-white w-fit p-05 ml-1 size-08 border-radius-5">
+            <small>MX </small>Cinco de Mayo
+          </p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

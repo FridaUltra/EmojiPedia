@@ -2,11 +2,11 @@
 
     /* Type */
     body {
-        background-color: rgb(162, 83, 162);
+        background-color: #a253a2;
     }
 
-    main {
-        margin-left: 4rem;
+    .main {
+        margin-left: 4.2rem;
     }
 
     /* Object */
@@ -40,6 +40,23 @@
         margin: 2rem 0;
     }
 
+    .container {
+        padding: 0 1rem;
+        /* sökfältet går annars kiant i kant. Kanske finns annan lösning. */
+    }
+
+    .banner-desktop {
+        display: block;
+    }
+
+    .banner-mobile {
+        display: none;
+    }
+
+    .box-container {
+        flex-direction: row;
+    }
+
     /* Utility */
 
 }
@@ -47,12 +64,9 @@
 .navbar-desktop>p {
     margin: 5px 0;
     font-size: 24px;
-    font-style: "Open Sans", sans-serif;
 }
 
-.eng {
-    font-style: "Open Sans", sans-serif;
-}
+
 
 .nav-desktop-container {
     display: flex;
