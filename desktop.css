@@ -2,11 +2,39 @@
 
     /* Type */
     body {
-        background-color: #a253a2;
+        /* background-color: #a253a2; */
     }
 
     .main {
         margin-left: 4.2rem;
+    }
+
+    .footer {
+        margin-left: 4.2rem;
+        flex-direction: row;
+        gap: 1rem;
+        /* flex-wrap: nowrap; */
+    }
+
+    footer nav {
+        flex: 1;
+    }
+
+    footer section {
+        flex: 1;
+    }
+
+    footer section div {
+        flex-direction: column;
+    }
+
+    .logo-icon {
+        width: 24px;
+        height: auto;
+    }
+
+    .lang-opt {
+        font-size: 18px;
     }
 
     /* Object */
@@ -21,6 +49,18 @@
         padding: 1rem 0;
         width: 4rem;
 
+    }
+
+    .earth {
+        flex: 1;
+    }
+
+    .ramadan {
+        flex: 1;
+    }
+
+    .cincodemayo {
+        flex: 1;
     }
 
     .search-desktop {
@@ -42,7 +82,7 @@
 
     .container {
         padding: 0 1rem;
-        /* sökfältet går annars kiant i kant. Kanske finns annan lösning. */
+        /* sökfältet går annars kant i kant. Kanske finns annan lösning. */
     }
 
     .banner-desktop {
@@ -57,20 +97,17 @@
         flex-direction: row;
     }
 
-    /* Utility */
+    .navbar-desktop>p {
+        margin: 5px 0;
+        font-size: 24px;
+    }
 
-}
+    .nav-desktop-container {
+        display: flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+    }
 
-.navbar-desktop>p {
-    margin: 5px 0;
-    font-size: 24px;
-}
 
-
-
-.nav-desktop-container {
-    display: flex;
-    position: fixed;
-    top: 0;
-    bottom: 0;
 }

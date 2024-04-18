@@ -9,6 +9,20 @@ body {
     font-weight: 300;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+footer h5 {
+    margin-top: 0;
+}
+
 /* Object */
 header {
     background-color: #F0F3F7;
@@ -22,6 +36,19 @@ header {
 
 .main {
     padding: 0 2.2rem;
+}
+
+.footer {
+    padding: 0 2.2rem;
+}
+
+footer nav {
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+footer section {
+    flex-direction: column;
 }
 
 .main-icons {
@@ -45,6 +72,10 @@ header {
 .logo-icon {
     width: 28px;
     height: 28px;
+}
+
+.zedge-logo {
+    width: 7rem;
 }
 
 .img-container {
@@ -72,38 +103,31 @@ header {
 .earth {
     background-image: url("./assets/Earth_Day_PNG.png");
     background-size: cover;
-    min-height: 7rem;
+    height: 7rem;
     border-radius: 5px;
-    flex: 1;
 }
 
 .ramadan {
     background-image: url("./assets/Ramadan_PNG.png");
     background-size: cover;
-    min-height: 7rem;
+    height: 7rem;
     border-radius: 5px;
-    flex: 1;
 }
 
 .cincodemayo {
     background-image: url("./assets/Cinco_de_Mayo_PNG.png");
     background-size: cover;
-    min-height: 7rem;
+    height: 7rem;
     border-radius: 5px;
-    flex: 1;
 }
 
-.ramadan {
-    background-image: url("./assets/Ramadan_PNG.png");
-    background-size: cover;
-    min-height: 5rem;
-    border-radius: 5px;
-    flex: 1;
+section p {
+    margin: 0 0 0.5rem 0;
+    font-size: 12px;
 }
-
-
 
 /* Utility */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -125,6 +149,23 @@ header {
     justify-content: space-between;
 }
 
+.wrap {
+    flex-wrap: wrap;
+}
+
+.grow-1 {
+    flex: 1;
+}
+
+.gap-05 {
+    gap: 0.5rem;
+}
+
+.gap-1 {
+    gap: 1rem;
+}
+
+
 .bg-white {
     background-color: #fff;
 }
@@ -133,21 +174,8 @@ header {
     background-color: #a253a2;
 }
 
-.wrap {
-    flex-wrap: wrap;
-
-}
-
-.grow-1 {
-    flex: 1;
-}
-
 .weight-200 {
     font-weight: 200;
-}
-
-.gap-1 {
-    gap: 1rem;
 }
 
 .position-relative {
@@ -166,6 +194,14 @@ header {
     margin-left: 1rem;
 }
 
+.ml-4 {
+    margin-left: 4rem;
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
 .mb-2 {
     margin-bottom: 2rem;
 }
@@ -180,4 +216,8 @@ header {
 
 .w-fit {
     width: fit-content;
+}
+
+.line-height-1 {
+    line-height: 1;
 }
