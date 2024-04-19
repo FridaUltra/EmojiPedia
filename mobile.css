@@ -52,8 +52,14 @@ footer section {
 }
 
 .main-icons {
-    font-size: 4rem;
+    font-size: 3.8rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
+
 
 .navbar-mobile {
     justify-content: space-between;
@@ -78,7 +84,7 @@ footer section {
     width: 7rem;
 }
 
-.img-container {
+.emojipedia-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,8 +92,7 @@ footer section {
 }
 
 .logo-text-img {
-    width: 40%;
-    height: auto;
+    max-width: 224px;
 }
 
 .search-desktop {
@@ -127,11 +132,6 @@ section p {
 }
 
 /* Utility */
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .flex {
     display: flex;

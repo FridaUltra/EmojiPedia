@@ -7,6 +7,7 @@
 
     .main {
         margin-left: 4.2rem;
+        max-width: 1380px;
     }
 
     .footer {
@@ -51,6 +52,19 @@
 
     }
 
+    .main-icons {
+        gap: 0.5rem;
+    }
+
+    .main-icons>span {
+        flex: 1;
+        text-align: center;
+    }
+
+    .logo-text-img {
+        max-width: 480px;
+    }
+
     .earth {
         flex: 1;
     }
@@ -76,7 +90,7 @@
         height: auto;
     }
 
-    .img-container {
+    .emojipedia-container {
         margin: 2rem 0;
     }
 
