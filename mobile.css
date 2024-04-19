@@ -93,6 +93,15 @@ footer section {
     display: none;
 }
 
+figure {
+    margin: 0;
+}
+
+.banner-mobile {
+    width: 100%;
+    max-width: 750px;
+}
+
 .banner-desktop {
     display: none;
 }
