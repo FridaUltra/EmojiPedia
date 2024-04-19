@@ -73,7 +73,6 @@
         padding: 4px 10px 4px 4px;
         border: none;
         border-radius: 5px;
-        /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
         box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 8px 0px;
 
     }
@@ -157,5 +156,14 @@
         bottom: 0;
     }
 
+    .zedge-letter-logo {
+        display: none;
+    }
+
+    .zedge-logo {
+        display: block;
+        width: 7rem;
+
+    }
 
 }

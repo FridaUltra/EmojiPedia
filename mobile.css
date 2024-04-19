@@ -80,8 +80,17 @@ footer section {
     height: 28px;
 }
 
+.zedge-letter-logo {
+    min-width: 92px;
+}
+
 .zedge-logo {
-    width: 7rem;
+    display: none;
+}
+
+.play-store-logo {
+    border-radius: 5px;
+    max-width: 135px;
 }
 
 .emojipedia-container {
@@ -220,4 +229,8 @@ section p {
 
 .line-height-1 {
     line-height: 1;
+}
+
+.color-black {
+    color: #000;
 }
