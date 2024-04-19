@@ -34,6 +34,14 @@ header {
     box-shadow: rgba(0, 0, 0, 0.256) 0px 2px 15px;/
 }
 
+.header-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: white;
+}
+
 .main {
     padding: 0 2.2rem;
 }
