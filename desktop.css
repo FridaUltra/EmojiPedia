@@ -1,8 +1,7 @@
 @media (min-width: 900px) {
 
-    /* Type */
-    body {
-        /* background-color: #a253a2; */
+    h2 {
+        font-weight: 500;
     }
 
     .main {
