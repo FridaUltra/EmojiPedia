@@ -37,23 +37,8 @@ footer h5 {
     margin-top: 0;
 }
 
-/* Object */
-header {
-    background-color: #F0F3F7;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.2rem;
-    margin: 3px 3px;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.256) 0px 2px 15px;/
-}
-
-.header-mobile {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background: white;
+figure {
+    margin: 0;
 }
 
 .main {
@@ -71,6 +56,30 @@ footer nav {
 
 footer section {
     flex-direction: column;
+}
+
+section p {
+    margin: 0 0 0.5rem 0;
+    font-size: 12px;
+}
+
+/* Object */
+header {
+    background-color: #F0F3F7;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.2rem;
+    margin: 3px 3px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.256) 0px 2px 15px;/
+}
+
+.header-mobile {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: white;
 }
 
 .main-icons {
@@ -91,10 +100,6 @@ footer section {
 
 .header-desktop {
     display: none;
-}
-
-figure {
-    margin: 0;
 }
 
 .banner-mobile {
@@ -141,7 +146,7 @@ figure {
 
 .box-container {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     flex-direction: column;
 }
 
@@ -166,14 +171,52 @@ figure {
     border-radius: 5px;
 }
 
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #F0F3F7;
+}
+
+.card-header {
+    border-radius: 5px;
+}
+
+.card-header img {
+    width: 100%;
+    max-height: 7rem;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.card-content {
+    padding: 1rem;
+}
+
+.card-content h3 {
+    font-weight: 500;
+
+}
+
+.card-content p {
+    margin: 0.4rem 0 0 0;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
 .empty-div {
     height: 20rem;
 }
 
-section p {
-    margin: 0 0 0.5rem 0;
-    font-size: 12px;
-}
 
 /* Utility */
 
@@ -212,7 +255,6 @@ section p {
 .gap-1 {
     gap: 1rem;
 }
-
 
 .bg-white {
     background-color: #fff;

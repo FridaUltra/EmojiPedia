@@ -36,6 +36,26 @@
         background-color: white;
     }
 
+    .card-container {
+        flex-direction: row;
+    }
+
+    .card {
+        flex: 1;
+    }
+
+    .card-content {
+        margin-bottom: 1rem;
+    }
+
+    .card-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .card-content p {
+        font-size: 1rem;
+    }
+
     footer nav {
         flex: 1;
     }
