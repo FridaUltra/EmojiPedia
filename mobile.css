@@ -9,6 +9,11 @@ body {
     font-weight: 300;
 }
 
+h2,
+h3 {
+    margin: 0 0 1rem 0;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -105,7 +110,7 @@ footer section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5rem 0;
+    margin: 12rem 0 5rem 0;
 }
 
 .logo-text-img {
